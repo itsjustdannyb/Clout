@@ -4,9 +4,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.5;
+    overflow-x: hidden;
 }
 
 body{
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-family: 'Jura', sans-serif;
+    color: rgb(19, 18, 18);
+    background-color: #ffffff;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7175d3;
+    height: 85px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #7175d3;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase {
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    
+}
+
+.showcase img{
+    float: right;
+    width: 200px;
+}
+
+
+.showcase .text {
+    float: left;
+    width: 70%;
 }
